@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&family=Open+Sans:wght@300;400;600&display=swap');
+
+:root {
+    
+    --bg-navbar: #70d6ff;
+    --color-text-title: #ff9770;
+    --bg-element-primary: #ffd670;
+    --bg-element-secondary: #e9ff70;
+
+    --color-text-primary:#1c1c1c;
+
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Montserrat', sans-serif;
+}
+
+p, li, ul {
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* 
+============ Nav BAR =======================
+*/
+.my-bg-navbar {
+    background-color: var(--bg-navbar);
+}
+.my-width-logo {
+    width: 20%;
+}
+/* 
+============ Nav BAR END =======================
+*/
+
