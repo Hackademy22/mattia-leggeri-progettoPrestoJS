@@ -2,7 +2,7 @@
 
 :root {
     
-    --bg-navbar: #70d6ff;
+    --bg-navbar: #7fd1f1;
     --color-text-title: #ff9770;
     --bg-element-primary: #ffd670;
     --bg-element-secondary: #e9ff70;
@@ -32,3 +32,41 @@ p, li, ul {
 ============ Nav BAR END =======================
 */
 
+/* 
+============ header IMG =======================
+*/
+
+.headerImage{
+    background:linear-gradient(rgba(0, 0, 0, 0.400),rgba(0, 0, 0, 0.101)), url(../immagini/header-image.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 90vh;
+}
+
+h1{
+    color: white;
+    font-size: 200px;
+    font-family: fantasy;
+}
+
+.headerImage h2 {
+    color: white;
+    font-size: 50px;
+    font-family: fantasy;
+}
+
+.myBtnCustom {
+    border: none;
+    background-color: var(--bg-element-primary);
+    color: black;
+    margin: 0 1rem;
+    font-size: 1.70rem;
+}
+/* 
+============ header IMG =======================
+*/
+
+.card{
+    top: -100px;
+    background-color: var(--bg-element-primary);
+}
